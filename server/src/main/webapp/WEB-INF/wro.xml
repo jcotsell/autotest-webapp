@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groups xmlns="http://www.isdc.ro/wro">
+  <group name='ext'>
+    <js>/ext-4/ext-all-dev.js</js>
+    <js>/ext-4/CheckCombo.js</js>
+    <js>/ext-4/HeaderFilters.js</js>
+    <js>/ext-4/datetime/DateTimeSelector.js</js>
+    <js>/ext-4/CopyButton.js</js>
+    <js>/ext-4/Notification.js</js>
+  </group>
+  <group name='app'>
+    <js>/calypsomonitor/license.js.jsp</js>
+    <js>/calypsomonitor/controller/util.js</js>
+  </group>
+</groups>

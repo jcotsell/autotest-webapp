@@ -1,5 +1,8 @@
 package seb.autotest.server.models;
 
+import ch.ralscha.extdirectspring.generator.ModelAssociation;
+import ch.ralscha.extdirectspring.generator.ModelAssociationType;
+
 import javax.persistence.*;
 import java.sql.Timestamp;
 
@@ -17,9 +20,11 @@ public class TestResult {
     private Timestamp lastUpdate;
 
     @ManyToOne
+    @ModelAssociation(value = ModelAssociationType.HAS_ONE)
     private seb.autotest.server.models.TestRun testRun;
 
     @ManyToOne
+    @ModelAssociation(value = ModelAssociationType.HAS_ONE)
     private seb.autotest.server.models.Context context;
 
     private String className;

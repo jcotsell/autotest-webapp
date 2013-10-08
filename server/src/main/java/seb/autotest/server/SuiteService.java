@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import seb.autotest.server.models.SuiteDefinition;
 
 import javax.ws.rs.Path;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,13 +19,21 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Controller
-@Path("/suite")
 public class SuiteService {
 
     @ExtDirectMethod(ExtDirectMethodType.STORE_READ)
-    public List<SuiteDefinition> getSource(ExtDirectStoreReadRequest request) {
-        return Ebean.find(SuiteDefinition.class).findList();
+    public List<SuiteDefinition> getSuites(ExtDirectStoreReadRequest request) {
+        List<SuiteDefinition> suites = new ArrayList<SuiteDefinition>();
+        for (SuiteDefinition s : Ebean.find(SuiteDefinition.class).findList())
+        {
+            SuiteDefinition s1 = new SuiteDefinition();
+            s1.setId(s.getId());
+            s1.setName(s.getName());
+            s1.setLastUpdate(s.getLastUpdate());
+            suites.add(s1);
+        }
+
+        return suites;
 
     }
-
 }

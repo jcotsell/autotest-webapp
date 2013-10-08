@@ -1,5 +1,7 @@
 package seb.autotest.server.models;
 
+import ch.ralscha.extdirectspring.generator.ModelAssociation;
+import ch.ralscha.extdirectspring.generator.ModelAssociationType;
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.Query;
 import com.avaje.ebean.RawSql;
@@ -24,14 +26,17 @@ public class TestRun {
     private Timestamp lastUpdate;
 
     @ManyToOne
+    @ModelAssociation(value = ModelAssociationType.HAS_ONE)
     private seb.autotest.server.models.SuiteDefinition suite;
 
     private Timestamp startTime;
 
     @ManyToOne
+    @ModelAssociation(value = ModelAssociationType.HAS_ONE)
     private seb.autotest.server.models.Environment environment;
 
     @OneToMany
+    @ModelAssociation(value = ModelAssociationType.HAS_MANY, model = TestResult.class,  autoLoad = true)
     private List<TestResult> testResults;
 
 	public Integer getId() {
@@ -74,8 +79,9 @@ public class TestRun {
         this.environment = environment;
     }
 
+
     public List<TestResult> getTestResults() {
-        if (null == testResults)
+        if (null == testResults )
             testResults = new ArrayList<TestResult>();
         return testResults;
     }

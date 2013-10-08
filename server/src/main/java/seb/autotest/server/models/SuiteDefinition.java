@@ -1,5 +1,7 @@
 package seb.autotest.server.models;
 
+import ch.ralscha.extdirectspring.generator.ModelAssociation;
+import ch.ralscha.extdirectspring.generator.ModelAssociationType;
 import com.avaje.ebean.Ebean;
 import com.avaje.ebean.RawSql;
 import com.avaje.ebean.RawSqlBuilder;
@@ -33,6 +35,7 @@ public class SuiteDefinition {
     private String name;
 	
     @ManyToMany
+    @ModelAssociation(value = ModelAssociationType.HAS_MANY, model = Context.class,  autoLoad = true)
     private List<Context> contexts;
     
 	public Integer getId() {
@@ -98,7 +101,8 @@ public class SuiteDefinition {
     public List<Context> getContexts() {
         return contexts;
     }
-    
+
+
     public List<Context> getContexts(String dimension, String tag) {
       RawSql raw = RawSqlBuilder.parse(String.format(
           " select c.id, c.name "

@@ -1,0 +1,9 @@
+Ext.define('AutoTest.store.SuiteStore', {
+  extend: 'Ext.data.Store',
+  model: 'AutoTest.model.SuiteModel',
+  autoLoad: false,
+  proxy: {
+                  type: 'direct',
+                  directFn: suiteService.getSuites
+              }
+  });

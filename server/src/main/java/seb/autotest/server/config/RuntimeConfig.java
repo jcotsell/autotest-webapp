@@ -1,14 +1,16 @@
 package seb.autotest.server.config;
 
-import org.springframework.context.annotation.Configuration;
+
+import org.springframework.context.annotation.*;
+import seb.autotest.server.SuiteService;
 
 /**
- * Created with IntelliJ IDEA.
- * User: s45875
- * Date: 2013-10-04
- * Time: 16:18
- * To change this template use File | Settings | File Templates.
+ * @author hani
+ *         Date: 6/6/12
+ *         Time: 11:59 AM
  */
 @Configuration
+@ComponentScan(basePackageClasses = {SuiteService.class})
 public class RuntimeConfig {
+
 }

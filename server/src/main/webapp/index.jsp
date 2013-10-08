@@ -1,11 +1,7 @@
-<!doctype html>
-<html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<%@ include file="include.jsp" %>
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>AutoTest</title>
+<%
+  String url = "autotest/index.jsp";
+   %>
 
-  <body>
-</body>
-</html>
+<c:redirect url="<%= url %>"/>

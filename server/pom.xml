@@ -263,6 +263,12 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -278,9 +284,15 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.10</version>
                 <configuration>
+                    <webAppSourceDirectory>${basedir}/src/main/webapp</webAppSourceDirectory>
+                    <classesDirectory>${basedir}/target/classes</classesDirectory>
+                    <webApp>
+                        <defaultsDescriptor>src/main/resources/webdefault.xml</defaultsDescriptor>
+                    </webApp>
+                    <contextPath>/</contextPath>
                     <connectors>
-                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                            <port>9999</port>
+                       <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8089</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
                     </connectors>

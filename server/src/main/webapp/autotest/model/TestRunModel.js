@@ -1,0 +1,1 @@
+Ext.define("seb.autotest.server.models.TestRun",{extend:"Ext.data.Model",fields:[{name:"id",type:"int"},{name:"lastUpdate",type:"date"},{name:"startTime",type:"date"}]});

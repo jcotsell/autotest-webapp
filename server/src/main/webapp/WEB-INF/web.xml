@@ -38,6 +38,10 @@
             <param-name>contextConfigLocation</param-name>
             <param-value></param-value>
         </init-param>
+        <init-param>
+            <param-name>useFileMappedBuffer</param-name>
+            <param-value>false</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
         <multipart-config>
             <location>/tmp</location>
@@ -45,6 +49,7 @@
             <max-request-size>1048576</max-request-size>
             <file-size-threshold>1048576</file-size-threshold>
         </multipart-config>
+
     </servlet>
 
     <servlet-mapping>

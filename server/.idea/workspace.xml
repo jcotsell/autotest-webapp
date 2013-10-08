@@ -4,13 +4,13 @@
     <list default="true" id="1068e179-53e0-486a-b203-dc137d884bb6" name="Default" comment="" />
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.jsp" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381164534637" ignored="false" />
+    <file path="/index.jsp" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381242343139" ignored="false" />
     <file path="$PROJECT_DIR$/../../maintenance_01/Calypso/CalypsoAutoTest/src/seb/util/ConfirmTest.java" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381146194259" ignored="false" />
     <file path="/ConfirmTest.java" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381146179768" ignored="false" />
     <file path="/SuiteStore.js" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381164317956" ignored="false" />
     <file path="/SuiteModel.js" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381154394985" ignored="false" />
     <file path="/SuiteService.java" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381164820291" ignored="false" />
-    <file path="/pom.xml" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381144237316" ignored="false" />
+    <file path="/pom.xml" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381243810746" ignored="false" />
     <file path="/app.js" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381164469541" ignored="false" />
     <file path="/a.dummy" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381142910046" ignored="false" />
     <file path="/KeyBindingController.js" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381144869792" ignored="false" />
@@ -21,6 +21,10 @@
     <file path="/Generator.java" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381163673061" ignored="false" />
     <file path="/ext-all-access.css" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381164936845" ignored="false" />
     <file path="/TestRun.java" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381227892697" ignored="false" />
+    <file path="C:/src/maintenance_01/Calypso/CalypsoAutoTest/src/seb/util/ConfirmTest.java" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381242590469" ignored="false" />
+    <file path="/ViewPort.js" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381244340115" ignored="false" />
+    <file path="/ResultsPanel.js" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381241086442" ignored="false" />
+    <file path="/webdefault.xml" changelist="1068e179-53e0-486a-b203-dc137d884bb6" time="1381242754706" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,49 +85,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SuiteService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/SuiteService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="22" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#814#831#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ext-all-access.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ext-all-access.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+            <state line="0" column="206629" selection-start="206629" selection-end="206629" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/config/WebConfig.java">
+      <file leaf-file-name="ViewPort.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/view/ViewPort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="55" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0">
+            <state line="9" column="57" selection-start="307" selection-end="307" vertical-scroll-proportion="0.32692307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuiteDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/models/SuiteDefinition.java">
+      <file leaf-file-name="webdefault.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webdefault.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="38" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+            <state line="157" column="23" selection-start="7574" selection-end="7578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelAssociation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/extdirectspring-2f4235dd7011/extdirectspring-2f4235dd7011/src/main/java/ch/ralscha/extdirectspring/generator/ModelAssociation.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="51" selection-start="1852" selection-end="1869" vertical-scroll-proportion="0.0">
+            <state line="294" column="38" selection-start="11676" selection-end="11676" vertical-scroll-proportion="-3.16">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="49" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="35" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultsPanel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/view/ResultsPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="36" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,31 +166,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ModelController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/models/ModelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="1.3735726">
+            <state line="63" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ebean.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.7.1/ebean-2.7.1.jar!/com/avaje/ebean/Ebean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuiteDefinitionModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/model/SuiteDefinitionModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="54" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -186,22 +187,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/config/RuntimeConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/Generator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/autotest/model/SuiteModel.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/autotest/model/TestResultModel" />
         <option value="$PROJECT_DIR$/src/main/webapp/autotest/model/TestRunModel.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/autotest/store/SuiteStore.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/autotest/app.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/autotest/store/SuiteDefinitionStore.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/autotest/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/SuiteService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/ext-all-access.css" />
         <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/models/SuiteDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/models/TestRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/models/TestResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/seb/autotest/server/models/ModelController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/ext-all-access.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/autotest/view/ResultsPanel.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/autotest/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webdefault.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/autotest/view/ViewPort.js" />
       </list>
     </option>
   </component>
@@ -241,24 +242,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="idea" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="server" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -270,6 +253,25 @@
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>IOResource</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -297,6 +299,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -430,11 +433,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ext-theme-access" />
+              <option name="myItemId" value="autotest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,132 +452,27 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/extdirectspring-2f4235dd7011/extdirectspring-2f4235dd7011/src/main/java" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -765,27 +659,27 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24050634" sideWeight="0.8959608" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24050634" sideWeight="0.10403917" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4073648" sideWeight="0.8959608" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4073648" sideWeight="0.10403917" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14687882" sideWeight="0.75949365" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14871481" sideWeight="0.5926352" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28151774" sideWeight="0.75949365" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49942464" sideWeight="0.58506733" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25214198" sideWeight="0.5926352" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49021864" sideWeight="0.68910646" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -853,41 +747,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="3" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/store/SuiteDefinitionStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="71" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/model/TestResultModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="308" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/model/SuiteDefinitionModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="12" selection-start="12" selection-end="54" vertical-scroll-proportion="0.0">
@@ -897,7 +756,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.7.1/ebean-2.7.1.jar!/com/avaje/ebean/Ebean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.4">
+        <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -905,16 +764,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/SuiteService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="22" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#814#831#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ext-all-access.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -928,16 +777,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ch/ralscha/extdirectspring/1.3.7/extdirectspring-1.3.7.jar!/ch/ralscha/extdirectspring/generator/ModelAssociation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/extdirectspring-2f4235dd7011/extdirectspring-2f4235dd7011/src/main/java/ch/ralscha/extdirectspring/generator/ModelAssociation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="51" selection-start="1852" selection-end="1869" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="18" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/models/SuiteDefinition.java">
@@ -954,6 +794,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/models/ModelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ext-all-access.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="206629" selection-start="206629" selection-end="206629" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/view/ResultsPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="49" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/models/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
@@ -961,12 +838,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seb/autotest/server/models/ModelController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/webdefault.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="1.3735726">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="157" column="23" selection-start="7574" selection-end="7578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="38" selection-start="11676" selection-end="11676" vertical-scroll-proportion="-3.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/autotest/view/ViewPort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="57" selection-start="307" selection-end="307" vertical-scroll-proportion="0.32692307">
+          <folding />
         </state>
       </provider>
     </entry>
